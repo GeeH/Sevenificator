@@ -1,0 +1,26 @@
+{
+  "name": "geeh/sevenificator",
+  "description": "PHP 7 strict type hinting converter (for PHP 7)",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gary @GeeH Hockin",
+      "email": "gary@roave.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GeeH\\Sevenificator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GeeH\\SevenificatorTest\\": "test/"
+    }
+  },
+  "require": {
+    "php": "~7",
+    "phpdocumentor/phpdocumentor": "v2.8.3"
+  }
+}
