@@ -1,7 +1,7 @@
 <?php
 #!/usr/bin/env php
 
-chdir(__DIR__ . '/../');
+chdir($_SERVER['PWD']);
 
 try {
 
