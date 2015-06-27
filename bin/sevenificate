@@ -1,4 +1,5 @@
 <?php
+#!/usr/bin/env php
 
 chdir(__DIR__ . '/../');
 
@@ -15,7 +16,11 @@ try {
         throw new \Exception('Cannot find tmp folder at `' . $directory . '`');
     }
 
-    $loader = require_once('vendor/autoload.php');
+    if (file_exists($loaderFile = __DIR__.'./../../autoload.php')) {
+        $loader = require_once($loaderFile);
+    } else {
+        $loader = require_once(__DIR__.'/../vendor/autoload.php');
+    }
     if (!$loader) {
         throw new \Exception('Could not load the autoloader - have you done a composer install?');
     }

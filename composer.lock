@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6bee1bb243314b1e4f272ff4e97559f6",
+    "hash": "074d50bf73287c533e4a78a875fc66e4",
     "packages": [
         {
             "name": "asgrim/better-reflection",
@@ -12,18 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asgrim/better-reflection.git",
-                "reference": "6bac3adb29ea3aa29bd245bf1b2d3083785bb23f"
+                "reference": "3f3943c21b8830313484166512738e15a50d2bc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asgrim/better-reflection/zipball/6bac3adb29ea3aa29bd245bf1b2d3083785bb23f",
-                "reference": "6bac3adb29ea3aa29bd245bf1b2d3083785bb23f",
+                "url": "https://api.github.com/repos/asgrim/better-reflection/zipball/3f3943c21b8830313484166512738e15a50d2bc8",
+                "reference": "3f3943c21b8830313484166512738e15a50d2bc8",
                 "shasum": ""
             },
             "require": {
                 "fabpot/php-cs-fixer": "^1.8",
                 "nikic/php-parser": "^1.3",
-                "php": ">= 5.6"
+                "php": ">= 5.6",
+                "phpdocumentor/reflection-docblock": "^2.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6"
@@ -40,7 +41,7 @@
                 "source": "https://github.com/asgrim/better-reflection/tree/master",
                 "issues": "https://github.com/asgrim/better-reflection/issues"
             },
-            "time": "2015-06-27 11:40:01"
+            "time": "2015-06-27 12:06:08"
         },
         {
             "name": "cilex/cilex",
